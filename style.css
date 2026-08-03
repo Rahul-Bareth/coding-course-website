@@ -6,9 +6,13 @@
 
 :root {
   --primary: #2563eb;
-  --secondary: #f59e0b;
+  --secondary: #eeaa35;
   --dark: #111827;
   --light: #f8fafc;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -22,14 +26,14 @@ body {
 
 .navbar {
   height: 100px;
-  background: rgb(1, 17, 15);
+  background: var(--secondary);
   max-width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  color: white;
+  color: var(--light);
   font-weight: 600;
   position: sticky;
   top: 0;
@@ -40,6 +44,15 @@ body {
   display: flex;
   list-style: none;
   gap: 30px;
+}
+
+.nav-links a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .hero {
@@ -147,13 +160,14 @@ body {
   line-height: 50px;
   font-size: 30px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .stats-item:hover {
-  transform: scale(1.08);
-  transition: 0.3s;
+  transform: scale(1.03);
+  transition: 0.2s;
 }
+
 
 .service-container {
   padding-top: 20px;
@@ -192,7 +206,7 @@ body {
 }
 
 .service-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 .service-card i {
