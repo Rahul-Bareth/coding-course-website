@@ -98,7 +98,7 @@ a:hover {
   padding: 14px 38px;
   font-size: 18px;
   font-weight: 500;
-  background-color: orange;
+  background-color: var(--secondary);
   color: black;
   border: none;
   border-radius: 10px;
@@ -108,25 +108,25 @@ a:hover {
 
 .get-btn:hover {
   background-color: green;
-  color: white;
+  color: var(--light);
   transition: 0.3s;
 }
 
 .about {
-  background: white;
+  background: var(--light);
 }
 
 .about-container h2 {
   text-align: center;
   font-size: 40px;
-  color: black;
+  color: #000;
   line-height: 60px;
 }
 
 .about-container p {
   text-align: center;
   font-size: 24px;
-  color: black;
+  color: #000;
   gap: 45px;
 }
 
@@ -206,7 +206,7 @@ a:hover {
 }
 
 .service-card:hover {
-  transform: scale(1.01);
+  transform: translateY(-10px);
 }
 
 .service-card i {
@@ -224,6 +224,8 @@ a:hover {
   font-size: 18px;
   line-height: 1.06;
 }
+
+/* Portfolio-Section */
 
 .portfolio-container {
   text-align: center;
@@ -272,8 +274,11 @@ a:hover {
 }
 
 .image img:hover {
-  transform: scale(1.05);
+  transform: translateY(7px);
+  opacity: 0.9;
 }
+
+/* Testimonial-Section */
 
 .testimonials {
   background: white;
@@ -301,6 +306,8 @@ a:hover {
   padding: 40px 25px;
   text-align: center;
   cursor: pointer;
+  background: var(--dark);
+  color: #fff;
 }
 
 .testimonials-card img {
@@ -337,9 +344,11 @@ a:hover {
 }
 
 .testimonials-card:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
+
+/* Contact-Section */
 
 .contact-us {
   padding: 80px 100px;
