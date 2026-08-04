@@ -30,6 +30,7 @@ body {
 .logo {
   font-size: 28px;
   margin-left: 25px;
+  color:var(--primary);
 }
 
 .navbar {
@@ -63,6 +64,7 @@ body {
 
 a:hover {
   text-decoration: underline;
+  color: var(--primary);
 }
 
 .hero {
@@ -108,8 +110,8 @@ a:hover {
   padding: 10px 38px;
   font-size: 18px;
   font-weight: 500;
-  background-color: var(--secondary);
-  color: black;
+  background: var(--primary);
+  color: var(--dark);
   border: none;
   border-radius: 9999px;
   cursor: pointer;
@@ -117,8 +119,8 @@ a:hover {
 }
 
 .get-btn:hover {
-  background-color: green;
-  color: var(--light);
+  background: var(--secondary);
+  color: white;
   transition: 0.3s;
   box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
 }
@@ -177,6 +179,7 @@ a:hover {
   font-size: 30px;
   cursor: pointer;
   transition: 0.2s;
+  height: 60vh;
 }
 
 .stats-item:hover {
