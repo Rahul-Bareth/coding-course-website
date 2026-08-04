@@ -4,10 +4,13 @@
   box-sizing: border-box;
 }
 
+
 :root {
-  --primary: #2563eb;
-  --secondary: #eeaa35;
-  --dark: #111827;
+  --primary: #00c8ff;      /* Neon Cyan */
+  --secondary: #ff4fd8;    /* Neon Pink */
+  --accent: #ff9f1c;       /* Orange */
+  --dark: #050a30;         /* Deep Navy */
+  --dark-light: #0b1245;   /* Section Background */
   --light: #f8fafc;
 }
 
@@ -31,7 +34,7 @@ body {
 
 .navbar {
   height: 100px;
-  background: var(--secondary);
+  background: #050a30;
   max-width: 100%;
   margin: 0 auto;
   display: flex;
@@ -43,6 +46,8 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
 }
 
 .nav-links {
@@ -61,7 +66,7 @@ a:hover {
 }
 
 .hero {
-  height: 85vh;
+  height: 100vh;
   position: relative;
   background-image: url("images/background.jpg");
 
@@ -75,7 +80,7 @@ a:hover {
 
 .hero::before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   inset: 0;
 }
@@ -183,12 +188,12 @@ a:hover {
 /* Service-Section */
 
 .service-container {
-  padding-top: 20px 40px;
+  height: auto;
+  padding: 20px 40px;
   align-items: center;
   background: var(--dark);
   color: #fff;
-  margin-top: 30px;
-
+  /* margin-top: 30px; */
 }
 
 .service-container h2 {
@@ -501,4 +506,22 @@ a:hover {
  display: flex;
  gap: 15px;
  margin-top: 20px;
+}
+
+.social a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2a3248;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  background: #2563eb;
+  transform: translateY(-4px);
 }
