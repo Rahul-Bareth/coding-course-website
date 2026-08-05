@@ -78,6 +78,9 @@ a:hover {
   color: var(--primary);
 }
 
+
+
+
 /* Hero-Section */
 
 .hero {
@@ -138,6 +141,25 @@ a:hover {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
 }
 
+.learn-btn {
+  padding: 8px 38px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 9999px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.learn-btn:hover {
+  background: var(--secondary);
+  color: white;
+  transition: 0.3s;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
 /* About-Section */
 
 .about {
@@ -170,10 +192,26 @@ a:hover {
   gap: 35px;
 }
 
+.card {
+  border: 2px solid  var(--dark-light);
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(10px);
+}
+
 .card i {
   padding: 15px;
   color: blue;
   font-size: 30px;
+}
+
+.card,
+.service-card,
+.testimonials-card {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 /* Stats-section */
