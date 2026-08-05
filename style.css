@@ -179,7 +179,7 @@ a:hover {
 /* Stats-section */
 
 .stats-container {
-  background: var(--secondary);
+  background: var(--dark);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
@@ -223,13 +223,12 @@ a:hover {
 }
 
 .service-grid {
-  padding: 30px 200px;
+  padding: 30px 50px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   justify-content: center;
   gap: 30px;
-  /* height: 200px; */
 }
 
 .service-card {
@@ -280,9 +279,10 @@ a:hover {
 .button {
   padding: 20px;
   display: flex;
-  max-width: 200px;
+  max-width: 100%;
   margin: 0 auto;
   gap: 12px;
+  justify-content: center;
 }
 
 .btn {
@@ -557,19 +557,40 @@ a:hover {
   height: 60vh;
 }
 
+.service-grid {
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+}
+
+
 .card-container,
   .gallery,
-  .stats-container,
+  /* .stats-container, */
   .footer-container {
     grid-template-columns: 1fr;
   }
 
-  .button{
-    flex-direction: column;
+  .card {
+    border: 1px solid black;
+    border-radius: 10px;
   }
 
-  .gallery,
-  .image {
+    .stats-container {
+      grid-template-columns: repeat(4fr 1fr);
+      height: auto;
+      width: 100%;
+   } 
+
+  .button{
+    flex-direction: column;
+    max-width: 50%;
+  }
+
+  .btn {
+    border-radius: 30px;
+  }
+  
+  .image img{
     border-radius: 20px;
   }
 
