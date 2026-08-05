@@ -1,3 +1,3 @@
 # Coding Course Website
 
-A modern multi-page website built using HTML and CSS. The project includes responsive layouts, Flexbox, CSS Grid, portfolio sections, testimonials, contact forms, and modern UI components for web design practice.
+A modern multi-page website built with HTML and CSS, featuring responsive layouts, services, portfolio, testimonials, contact form, and modern UI components.
