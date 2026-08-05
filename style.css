@@ -183,17 +183,18 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 20px 40px;
   color: white;
-  gap: 40px;
+  gap: 20px;
   line-height: 50px;
   font-size: 30px;
   cursor: pointer;
   transition: 0.2s;
   height: 90vh;
 }
+
 
 .stats-item:hover {
   transform: scale(1.03);
@@ -546,6 +547,7 @@ a:hover {
   height: auto;
   gap: 15px;
   padding: 15px;
+  border-radius: 10px;
 }
 
 .nav-links {
@@ -565,7 +567,7 @@ a:hover {
 
 .card-container,
   .gallery,
-  /* .stats-container, */
+   .stats-container,
   .footer-container {
     grid-template-columns: 1fr;
   }
@@ -576,7 +578,7 @@ a:hover {
   }
 
     .stats-container {
-      grid-template-columns: repeat(4fr 1fr);
+      grid-template-columns: 2fr;
       height: auto;
       width: 100%;
    } 
@@ -607,5 +609,13 @@ a:hover {
   .contact-form,
   .contact-info {
     width: 100%;
+  }
+
+    .content h1 {
+    font-size: 36px;
+  }
+ 
+     .content p {
+    font-size: 18px;
   }
 }
