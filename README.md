@@ -1,3 +1,3 @@
 # Coding Course Website
 
-A modern multi-page website built with HTML and CSS, featuring responsive layouts, services, portfolio, testimonials, contact form, and modern UI components.
+Responsive business agency website built with HTML and CSS, featuring modern layouts, CSS Grid, Flexbox, hover effects, and mobile-friendly design.

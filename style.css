@@ -579,6 +579,33 @@ a:hover {
 }
 
 
+.top-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 200px;
+  height: 50px;
+  width: 50px;
+  background: var(--primary);
+  color: var(--dark);
+  display: flex;
+  /* place-items: center; */
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.top-btn:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+
+/* Media-Query*/
+
 @media (max-width: 768px){
 .navbar {
   flex-direction: column;
