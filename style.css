@@ -26,8 +26,6 @@ h2 {
 
 body {
   font-family: "Poppins", sans-serif;
-
-   /* background: #050a30;  */
  } 
 
 
@@ -46,7 +44,6 @@ body {
 .navbar {
   height: 75px;
   background: var(--dark);
-  /* width: calc(100% - 20px); */
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -77,6 +74,18 @@ body {
 a:hover {
   text-decoration: underline;
   color: var(--primary);
+}
+
+.menu {
+  display: none;
+  gap: 6px;
+  flex-direction: column;
+}
+
+.menu-child {
+  height: 4px;
+  width: 20px;
+  background: white;
 }
 
 
@@ -620,20 +629,27 @@ a:hover {
 
 @media (max-width: 768px){
 .navbar {
-  flex-direction: column;
   height: auto;
   gap: 15px;
   padding: 15px;
   border-radius: 10px;
 }
 
-.nav-links {
-  flex-wrap: wrap;
-  justify-content: center;
+ ul li {
+  display: none;
+ } 
+
+.menu {
+  display: flex;
+  padding-right: 20px;
+}
+
+.menu:hover + nav ul {
+  display: flex;
 }
 
 .hero {
-  height: 60vh;
+  height: 50vh;
 }
 
 .service-grid {
