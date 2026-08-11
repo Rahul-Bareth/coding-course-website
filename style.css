@@ -78,16 +78,50 @@ a:hover {
 
 .menu {
   display: none;
-  gap: 6px;
-  flex-direction: column;
 }
 
-.menu-child {
-  height: 4px;
-  width: 20px;
-  background: white;
+.mobile-menu {
+  display: none;
+  width: 280px;
+  background: var(--dark);
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 10px;
 }
 
+.mobile-menu img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.mobile-menu h3 {
+  text-align: center;
+  margin: 10px 0 20px;
+  font-size: 18px;
+}
+
+.mobile-menu ul {
+  list-style: none;
+}
+
+.mobile-menu li {
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.mobile-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.mobile-menu {
+  width: 280px;
+  max-width: 90%;
+}
 
 
 
@@ -635,18 +669,30 @@ a:hover {
   border-radius: 10px;
 }
 
- ul li {
+
+ .nav-links {
   display: none;
- } 
+ }
 
 .menu {
-  display: flex;
+  display: block;
+  font-size: 24px;
+  cursor: pointer;
   padding-right: 20px;
 }
 
-.menu:hover + nav ul {
-  display: flex;
+.mobile-menu {
+  display: none;
+  padding: 20px;
+  background: var(--dark);
 }
+
+.menu:hover + .mobile-menu,
+.mobile-menu:hover {
+  display: block;
+}
+
+
 
 .hero {
   height: 50vh;
