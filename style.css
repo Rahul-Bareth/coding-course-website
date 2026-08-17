@@ -21,7 +21,6 @@ h2 {
 
  html {
   scroll-behavior: smooth;
-   /* background: #050a30; */
 }
 
 body {
@@ -171,7 +170,7 @@ a:hover {
 
 .about {
   background: var(--background);
-  padding: 20px 40px;
+ padding: 100px 40px 40px;
 }
 
 .about-container h2 {
@@ -254,7 +253,7 @@ a:hover {
 
 .service-container {
   height: auto;
-  padding: 20px 40px;
+  padding: 100px 40px 40px;
   align-items: center;
   background: var(--background);
   color: #000;
@@ -319,7 +318,7 @@ a:hover {
   text-align: center;
   background: var(--background);
   font-size: 20px;
-  padding: 20px 40px;
+  padding: 100px 40px 40px;
 }
 
 .portfolio-container p {
@@ -328,13 +327,13 @@ a:hover {
 }
 
 .button {
-  padding: 20px;
   display: flex;
   max-width: 100%;
   margin: 0 auto;
   gap: 12px;
   justify-content: center;
 }
+
 
 .btn {
   padding: 10px 16px;
@@ -375,7 +374,7 @@ a:hover {
 
 .testimonials {
   background: var(--background);
-  padding: 20px 40px;
+  padding: 100px 40px 40px;
   text-align: center;
 }
 
@@ -444,7 +443,7 @@ a:hover {
 /* Contact-Section */
 
 .contact-us {
-  padding: 20px 40px;
+  padding: 100px 40px 40px;
   background: var(--background);
 }
 
@@ -525,14 +524,14 @@ a:hover {
 .footer {
   background: rgb(16, 21, 36);
   color: #fff;
-  padding-top: 60px;
+  padding-top: 30px;
 }
 
 .footer-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
-  padding: 0 40px 50px;
+ padding: 50px 40px 40px;
   max-width: 1200px;
   margin: auto;
 }
