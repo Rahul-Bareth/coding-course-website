@@ -1,3 +1,3 @@
-# Coding Course Website
+Coding Course Website
 
-Responsive business agency website built with HTML and CSS, featuring modern layouts, CSS Grid, Flexbox, hover effects, and mobile-friendly design.
+A clean, responsive business agency website built with HTML5 and CSS3, featuring modern layouts, Flexbox, CSS Grid, hover effects, and mobile-friendly design.
